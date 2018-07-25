@@ -1,0 +1,171 @@
+# PxPoint Build VMs
+HOST dc6
+    HostName 10.14.212.100
+    User labs
+
+HOST dc7
+    HostName 10.14.212.104
+    User labs
+
+HOST dw8
+    HostName dev-win2008.spatial.infosolco.com
+    User labs
+
+# PROD
+
+Host pa01
+  HostName pa01.spatial.infosolco.com
+  User SPSQN1VPAPPGP01+gisportal
+
+Host pa01isc
+  HostName pa01.spatial.infosolco.com
+  User ISC+YOUR_ISC_USERNAME
+
+Host pa02
+  HostName pa02.spatial.infosolco.com
+  User SPSQN1VPAPPGP02+gisportal
+
+Host pa02isc
+  HostName pa02.spatial.infosolco.com
+  User ISC+YOUR_ISC_USERNAME
+
+Host pm00isc
+  HostName pm00.spatial.infosolco.com
+  User ISC+YOUR_ISC_USERNAME
+
+Host pw02
+  HostName pw02.spatial.infosolco.com
+  User SPSQN1VPWEBGP02+gisportal
+
+Host pw02isc
+  HostName pw02.spatial.infosolco.com
+  User ISC+YOUR_ISC_USERNAME
+
+Host pw01
+  HostName pw01.spatial.infosolco.com
+  User SPSQN1VPWEBGP01+gisportal
+
+Host pw01isc
+  HostName pw01.spatial.infosolco.com
+  User ISC+YOUR_ISC_USERNAME
+
+Host pmysql
+  HostName spsqn1vpmysql00.infosolco.net
+  User labs
+
+# BETA
+
+Host bw01
+  HostName bw01.spatial.infosolco.com
+  User SPSQN1VBWEBGP01+gisportal
+
+Host bw01isc
+  HostName bw01.spatial.infosolco.com
+  User ISC+YOUR_ISC_USERNAME
+
+Host ba01
+  HostName ba01.spatial.infosolco.com
+  User SPSQN1VBAPPGP01+gisportal
+
+Host ba01isc
+  HostName ba01.spatial.infosolco.com
+  User ISC+YOUR_ISC_USERNAME
+
+Host bm00
+  HostName bm00.spatial.infosolco.com
+  User SPSQN1VBMYSGP00+gisportal
+
+Host bm00isc
+  HostName bm00.spatial.infosolco.com
+  User ISC+YOUR_ISC_USERNAME
+
+Host bmysql
+  HostName spsqn1vbmysql00.infosolco.net
+  User labs
+
+# DR
+
+Host rw01isc
+  HostName rw01.spatial.infosolco.com
+  User ISC+YOUR_ISC_USERNAME
+
+Host rw01
+  HostName rw01.spatial.infosolco.com
+  User SPSPN1VRWEBGP01+gisportal
+
+Host ra01isc
+  HostName ra01.spatial.infosolco.com
+  User ISC+YOUR_ISC_USERNAME
+
+Host ra01
+  HostName ra01.spatial.infosolco.com
+  User SPSPN1VRAPPGP01+gisportal
+
+Host rmysql
+  HostName spspn1vrmysys00.infosolco.net
+  User labs
+
+
+# BOULDER SERVERS
+
+Host cocoa
+  HostName cocoa.spatial.infosolco.com
+  User labs
+
+# BOULDER QUINCY REPLACEMENT SERVERS
+
+Host cocoa01isc
+  Hostname TSGQN1PDCOCOA01.infosolco.net
+  User labs
+
+Host cocoa01
+  Hostname TSGQN1PDCOCOA01.infosolco.net
+  User TSGQN1PDCOCOA01+gisportal
+
+Host mango01isc
+  Hostname TSGQN1VDMANGO01.infosolco.net
+  User labs
+
+Host mango01
+  Hostname TSGQN1VDMANGO01.infosolco.net
+  User TSGQN1VDMANGO01+gisportal
+
+Host lemon01isc
+  Hostname TSGQN1VDLEMON01.infosolco.net
+  User labs
+
+Host lemon01
+  Hostname TSGQN1VDLEMON01.infosolco.net
+  User TSGQN1VDLEMON01+gisportal
+
+Host grape01isc
+  Hostname TSGQN1VDGRAPE01.infosolco.net
+  User labs
+
+Host grape01
+  Hostname TSGQN1VDGRAPE01.infosolco.net
+  User TSGQN1VDGRAPE01+gisportal 
+
+Host pxtest
+  Hostname TSGQN1VDPXTST01.infosolco.net
+  User labs
+
+Host pxtestsys
+  Hostname TSGQN1VDPXTST01.infosolco.net
+  User tsg-sa-pxpointbuild
+
+Host pxbld01
+  Hostname TSGQN1PDPXPCL01.infosolco.net
+  User labs
+
+Host pxbld02
+  Hostname TSGQN1PDPXPCL02.infosolco.net
+  User labs
+
+Host pxsql
+  Hostname TSGQN1PDMSSQL01.infosolco.net
+  User labs
+
+Host layergen
+  Hostname TSGQN1PDDTGEN01.infosolco.net
+  User labs 
